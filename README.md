@@ -26,10 +26,10 @@ Packages installed with conda installation.
   - For the model tuning, trial and error method was used to tune the 'learning rate' and 'epochs' parameters.
     - Best learnin rate = 0.001 and best epochs = 200
     ##### Modling results on the test data:
-    - TILI - Loss: 1.4177
-    - TILI - Accuracy: 0.5987
-    - ALV-KOODI - Loss: 0.0679
-    - ALV-KOODI - Accuracy: 0.978
+    - TILI - Loss: 1.4146
+    - TILI - Accuracy: 0.5894
+    - ALV-KOODI - Loss: 0.0738
+    - ALV-KOODI - Accuracy: 0.9758
 
 
 
