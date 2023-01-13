@@ -5,14 +5,17 @@ python version = 3.9.15
 Packages installed with conda installation.
 
 ## Files  
-- 1.Data_understanding : jupyter notebook for performing data understanding task.  
+- 1.Data_understanding : jupyter notebook for performing data understanding task. 
+    - When reading the original data with pandas it was read by specifying the parameter **nrows = 317369** in order to match the given data size as the downloaded excel file contained empty rows at the end that just increased the data size.
 - 2.Modeling: jupyter notebook to perform the modeling task
 - requirements.txt : list of packages
+
+  Note: New dataset named '**data_modeling.csv**' created from the first notebook(1.Data_understanding) to be used in the second notebook(2.Modeling) for the modeling.
 
 
 ### Part 1: Baseline model and analysis
 - Data Investigation: A quick data investigation was performed to check the data types, missing values and investigate distribution of each features to understand their possible impact in the modeling.
-- Possible irrelevant features were dtermined during feature exploration.
+- Possible irrelevant features were determined during feature exploration.
 - Some input feature and target relation was analyzed to get an understanding of the possible feature importance in the modeling.
   #### Data Preprocessing performed
   - Dropped features with constant value.
